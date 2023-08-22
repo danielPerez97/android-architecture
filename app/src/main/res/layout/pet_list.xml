@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dev.danperez.petlist.screens.petlist.container.SinglePanePetContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <dev.danperez.petlist.screens.petlist.PetListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</dev.danperez.petlist.screens.petlist.container.SinglePanePetContainer>

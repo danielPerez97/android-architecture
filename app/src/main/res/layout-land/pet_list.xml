@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dev.danperez.petlist.screens.petlist.container.DualPanePetContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <dev.danperez.petlist.screens.petlist.PetListView
+        android:id="@+id/pet_list_view"
+        android:layout_width="50dp"
+        android:layout_height="match_parent" />
+
+    <dev.danperez.petlist.screens.petlist.PetDetailView
+        android:id="@+id/pet_detail_view"
+        android:layout_width="50dp"
+        android:layout_height="match_parent" />
+
+
+
+</dev.danperez.petlist.screens.petlist.container.DualPanePetContainer>

@@ -1,0 +1,15 @@
+CREATE TABLE Pets(
+    _id INTEGER PRIMARY KEY NOT NULL,
+    name TEXT NOT NULL
+);
+
+-- Get all entries
+selectAll:
+SELECT * FROM Pets;
+
+-- Insert sample data
+INSERT INTO Pets(name) VALUES ("Wheatley");
+INSERT INTO Pets(name) VALUES ("Lucas");
+INSERT INTO Pets(name) VALUES ("Rufus");
+INSERT INTO Pets(name) VALUES ("Axel");
+INSERT INTO Pets(name) VALUES ("Max");
